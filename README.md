@@ -32,14 +32,12 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>warp-caching</strong>: Testing different methods of caching with the warp web framework</summary>
-  <br>
   
   [warp-caching](https://github.com/thallada/warp-caching) is an example project demonstrating a few different methods of caching with the [warp web framework](https://github.com/seanmonstar/warp) that was an offshoot of my work with the [BazaarRealmAPI](https://github.com/thallada/BazaarRealmAPI). My intention with this project is to eventually create some benchmarks of the different approaches and write a blog post about the findings. I think there is a general lack of information out there about how to handle caching in warp projects, and since I found a neat solution in my own project I wanted to share it with the rest of the community.
 </details>
 
 <details>
   <summary><strong>bevy-nbody</strong>: N-body simulation using bevy and bigbang crates</summary>
-  <br>
   
   [bevy-nbody](https://github.com/thallada/bevy-nbody) is a N-body simulation using the bevy and bigbang Rust crates. I developed it as a way to try out the bevy game engine after it was initially released and to figure out what that ECS thing is all about.
 
@@ -50,17 +48,14 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>rust-skse-plugin</strong>: My mostly failed attempt at creating a fully-Rust SKSE plugin</summary>
-  <br>
   
   [rust-skse-plugin](https://github.com/thallada/rust-skse-plugin) is my mostly failed attempt at creating a fully-Rust [SKSE](https://skse.silverlock.org/) plugin. This was an offshoot of my work on [BazaarRealmPlugin](https://github.com/thallada/BazaarRealmPlugin). I was able to successfully register the plugin with the SKSE interface, but I wasn't able to do much else due to limitations of FFI between Rust and C++ code. I intend to take another crack at this in the not-to-distant future using some of the great work that has been coming out of the [cxx](https://github.com/dtolnay/cxx) project.
 </details>
 
 <details>
   <summary><strong>chela</strong>: HTML & CSS Sanitizer and Transformer</summary>
-  <br>
   
-  [chela](https://github.com/thallada/chela) is a HTML & CSS Sanitizer and Transformer written in Rust. chela (/
-0x2167e10cf0a (7888): lY - KEE-LUH) is a program that prunes untrusted HTML and CSS using a whitelist of rules. It is also a library for general-purpose HTML and CSS transforming that allows users to define custom functions that modify the parsed HTML tree node-by-node as it is traversed.
+  [chela](https://github.com/thallada/chela) is a HTML & CSS Sanitizer and Transformer written in Rust. chela (/ˈkiːlə/ - KEE-LUH) is a program that prunes untrusted HTML and CSS using a whitelist of rules. It is also a library for general-purpose HTML and CSS transforming that allows users to define custom functions that modify the parsed HTML tree node-by-node as it is traversed.
 
   I came up with the idea for chela while working at Consider (a now defunct email startup) where we were having performance issues processing thousands of HTML emails for every user in our Ruby on Rails web server. A large chunk of that processing was sanitizing the HTML emails to remove dangerous code and to transform the styling and structure of the HTML tree to match the styling of the rest of our web app that the email would be embedded in. We used the Ruby project [sanitize](https://github.com/rgrove/sanitize) for this processing and chela is heavily inspired by it. The goal of chela is to match the ease and usability of sanitize but with the performance and reliability of Rust under the hood. The browser-grade [html5ever](https://github.com/servo/html5ever) HTML parser and [rust-cssparser](https://github.com/servo/rust-cssparser) are used to parse HTML and CSS respectively.
 
@@ -69,7 +64,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>icosahedron</strong>: Generates subdivided and truncated icosahedron spheres in Rust</summary>
-  <br>
   
   [icosahedron](https://github.com/thallada/icosahedron) generates subdivided and truncated icosahedron spheres in Rust. I wrote a [blog post about this project that you can read on my blog](https://www.hallada.net/2020/02/01/generating-icosahedrons-and-hexspheres-in-rust.html).
 
@@ -78,7 +72,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>ferret</strong>: A rust terminal program for searching DuckDuckGo</summary>
-  <br>
   
   [ferret](https://github.com/thallada/ferret) is a terminal program for searching DuckDuckGo. It was my first major project that I developed in Rust as I began to learn the language. It has some major jankiness due to limitations in the TUI library I used, so I abandoned it before I finished all of the features I wanted to add to it.
 
@@ -87,7 +80,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>transport</strong>: Procedurally generated train network simulation</summary>
-  <br>
   
   [transport](https://github.com/thallada/transport) is a procedurally generated train network simulation written in TypeScript.
 
@@ -98,7 +90,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>proximity-structures</strong>: A procedurally generated and interactive animation created with PixiJS</summary>
-  <br>
   
   [proximity-structures](https://github.com/thallada/proximity-structures) is a procedurally generated and interactive animation created with [PixiJS](https://www.pixijs.com).
 
@@ -107,14 +98,12 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>panic-shack</strong>: Website for my Minecraft server</summary>
-  <br>
   
   [panic-shack](https://github.com/thallada/panic-shack) is a little website I developed to host info about a Minecraft server that I host for friends. It features maps generated using [Minecraft Overviewer](https://overviewer.org) and a custom log stream and chat box I hacked together with some python and screen.
 </details>
 
 <details>
   <summary><strong>Personal Site</strong>: Latest version of my personal website</summary>
-  <br>
   
   [thallada.github.io](https://github.com/thallada/thallada.github.io) is my main website which is built with [Jekyll](https://jekyllrb.com/).
 
@@ -123,7 +112,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>nlp</strong>: Various scripts for playing around with natural language processing/generation</summary>
-  <br>
   
   [nlp](https://github.com/thallada/nlp) is a collection of python scripts I wrote while playing around with generating text using natural language processing libraries like [nltk](https://www.nltk.org/) and [spacy](https://spacy.io/).
 
@@ -132,14 +120,12 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>pi-glow</strong>: Scripts to control a strip of LPD8806 LEDs from a raspberry pi's GPIO</summary>
-  <br>
   
   [pi-glow](https://github.com/thallada/pi-glow) contains scripts to control a strip of LPD8806 LEDs from a raspberry pi's GPIO.
 </details>
 
 <details>
   <summary><strong>whats-open</strong>: Simple Django site displaying which dining locations are currently open on George Mason University's campus</summary>
-  <br>
   
   [whats-open](https://github.com/thallada/whats-open) is a simple Django site displaying which dining locations are currently open on George Mason University's campus.
 
@@ -148,7 +134,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>laundry</strong>: Django site for displaying current laundry machine usage in GMU dorms</summary>
-  <br>
   
   [laundry](https://github.com/thallada/laundry) is a Django site for displaying current laundry machine usage in GMU dorms. 
 
