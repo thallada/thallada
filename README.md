@@ -75,6 +75,8 @@ This is a summary of coding side projects that I have worked on in the past but 
   [icosahedron](https://github.com/thallada/icosahedron) generates subdivided and truncated icosahedron spheres in Rust. I wrote a [blog post about this project that you can read on my blog](https://www.hallada.net/2020/02/01/generating-icosahedrons-and-hexspheres-in-rust.html).
 
   [planet](https://github.com/thallada/planet) is the sibling project which is the web frontend I developed in [regl.js](https://github.com/regl-project/regl) to display the 3D icosahedrons and hexspheres.
+  
+  You can see this project live at: [https://www.hallada.net/planet/](https://www.hallada.net/planet/).
   <br><br>
 </details>
 
