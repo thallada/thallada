@@ -58,12 +58,14 @@ This is a summary of coding side projects that I have worked on in the past but 
 
 <details>
   <summary><strong>chela</strong>: HTML & CSS Sanitizer and Transformer</summary>
+  <br>
   
   [chela](https://github.com/thallada/chela) is a HTML & CSS Sanitizer and Transformer written in Rust. chela (/ˈkiːlə/ - KEE-LUH) is a program that prunes untrusted HTML and CSS using a whitelist of rules. It is also a library for general-purpose HTML and CSS transforming that allows users to define custom functions that modify the parsed HTML tree node-by-node as it is traversed.
 
   I came up with the idea for chela while working at Consider (a now defunct email startup) where we were having performance issues processing thousands of HTML emails for every user in our Ruby on Rails web server. A large chunk of that processing was sanitizing the HTML emails to remove dangerous code and to transform the styling and structure of the HTML tree to match the styling of the rest of our web app that the email would be embedded in. We used the Ruby project [sanitize](https://github.com/rgrove/sanitize) for this processing and chela is heavily inspired by it. The goal of chela is to match the ease and usability of sanitize but with the performance and reliability of Rust under the hood. The browser-grade [html5ever](https://github.com/servo/html5ever) HTML parser and [rust-cssparser](https://github.com/servo/rust-cssparser) are used to parse HTML and CSS respectively.
 
   While it is in a useable state now, it still needs quite a bit of work before it can be relied upon in any production service. The big things left are documentation, examples using it, tests, benchmarks, and writing a blog post once that's all done to announce it to the community.
+  <br><br>
 </details>
 
 <details>
