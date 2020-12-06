@@ -30,14 +30,12 @@ I'm currently particpating in the [Advent of Code 2020](https://adventofcode.com
 
 This is a summary of coding side projects that I have worked on in the past but I'm not actively working on now. It's roughly sorted by most recently worked on first.
 
-<br>
 <details>
   <summary><strong>warp-caching</strong>: Testing different methods of caching with the warp web framework</summary>
   <br>
   
   [warp-caching](https://github.com/thallada/warp-caching) is an example project demonstrating a few different methods of caching with the [warp web framework](https://github.com/seanmonstar/warp) that was an offshoot of my work with the [BazaarRealmAPI](https://github.com/thallada/BazaarRealmAPI). My intention with this project is to eventually create some benchmarks of the different approaches and write a blog post about the findings. I think there is a general lack of information out there about how to handle caching in warp projects, and since I found a neat solution in my own project I wanted to share it with the rest of the community.
 </details>
-<br>
 
 <details>
   <summary><strong>bevy-nbody</strong>: N-body simulation using bevy and bigbang crates</summary>
@@ -49,7 +47,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   Animating dots around the screen is a favorite past-time of mine (see [proximity-structures](https://github.com/thallada/proximity-structures)).
 </details>
-<br>
 
 <details>
   <summary><strong>rust-skse-plugin</strong>: My mostly failed attempt at creating a fully-Rust SKSE plugin</summary>
@@ -57,7 +54,6 @@ This is a summary of coding side projects that I have worked on in the past but 
   
   [rust-skse-plugin](https://github.com/thallada/rust-skse-plugin) is my mostly failed attempt at creating a fully-Rust [SKSE](https://skse.silverlock.org/) plugin. This was an offshoot of my work on [BazaarRealmPlugin](https://github.com/thallada/BazaarRealmPlugin). I was able to successfully register the plugin with the SKSE interface, but I wasn't able to do much else due to limitations of FFI between Rust and C++ code. I intend to take another crack at this in the not-to-distant future using some of the great work that has been coming out of the [cxx](https://github.com/dtolnay/cxx) project.
 </details>
-<br>
 
 <details>
   <summary><strong>chela</strong>: HTML & CSS Sanitizer and Transformer</summary>
@@ -70,7 +66,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   While it is in a useable state now, it still needs quite a bit of work before it can be relied upon in any production service. The big things left are documentation, examples using it, tests, benchmarks, and writing a blog post once that's all done to announce it to the community.
 </details>
-<br>
 
 <details>
   <summary><strong>icosahedron</strong>: Generates subdivided and truncated icosahedron spheres in Rust</summary>
@@ -80,7 +75,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   [planet](https://github.com/thallada/planet) is the sibling project which is the web frontend I developed in [regl.js](https://github.com/regl-project/regl) to display the 3D icosahedrons and hexspheres.
 </details>
-<br>
 
 <details>
   <summary><strong>ferret</strong>: A rust terminal program for searching DuckDuckGo</summary>
@@ -90,7 +84,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   This was a reincarnation of my [search-pane program which I wrote about in a blog post in 2013](https://www.hallada.net/2013/07/10/quick-command-line-search-search-pane.html).
 </details>
-<br>
 
 <details>
   <summary><strong>transport</strong>: Procedurally generated train network simulation</summary>
@@ -102,7 +95,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   The idea of this project was to create a game out of managing and building huge train networks to deliver freight and passengers. I was inspired by the train networks that I built in the video game [Factorio](https://factorio.com/), and I wanted to develop a game focused on that aspect and take it to the extreme. I may rewrite this project in Rust using the bevy framework in the future, who knows.
 </details>
-<br>
 
 <details>
   <summary><strong>proximity-structures</strong>: A procedurally generated and interactive animation created with PixiJS</summary>
@@ -112,7 +104,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   You can see it live at https://proximity.hallada.net/. I also wrote [a blog post about this project](https://www.hallada.net/2017/08/07/proximity-structures.html).
 </details>
-<br>
 
 <details>
   <summary><strong>panic-shack</strong>: Website for my Minecraft server</summary>
@@ -120,7 +111,6 @@ This is a summary of coding side projects that I have worked on in the past but 
   
   [panic-shack](https://github.com/thallada/panic-shack) is a little website I developed to host info about a Minecraft server that I host for friends. It features maps generated using [Minecraft Overviewer](https://overviewer.org) and a custom log stream and chat box I hacked together with some python and screen.
 </details>
-<br>
 
 <details>
   <summary><strong>Personal Site</strong>: Latest version of my personal website</summary>
@@ -130,7 +120,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   You can see it live at [https://www.hallada.net](https://www.hallada.net).
 </details>
-<br>
 
 <details>
   <summary><strong>nlp</strong>: Various scripts for playing around with natural language processing/generation</summary>
@@ -140,7 +129,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   It also contains an IPython Notebook detailing how to generate random poems in python. I wrote a [blog post about that](https://www.hallada.net/2017/07/11/generating-random-poems-with-python.html).
 </details>
-<br>
 
 <details>
   <summary><strong>pi-glow</strong>: Scripts to control a strip of LPD8806 LEDs from a raspberry pi's GPIO</summary>
@@ -148,7 +136,6 @@ This is a summary of coding side projects that I have worked on in the past but 
   
   [pi-glow](https://github.com/thallada/pi-glow) contains scripts to control a strip of LPD8806 LEDs from a raspberry pi's GPIO.
 </details>
-<br>
 
 <details>
   <summary><strong>whats-open</strong>: Simple Django site displaying which dining locations are currently open on George Mason University's campus</summary>
@@ -158,7 +145,6 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   This repo contains the original code for the project, but it has been since taken over by the student group I helped found at GMU called [SRCT](https://srct.gmu.edu/).
 </details>
-<br>
 
 <details>
   <summary><strong>laundry</strong>: Django site for displaying current laundry machine usage in GMU dorms</summary>
@@ -168,4 +154,3 @@ This is a summary of coding side projects that I have worked on in the past but 
 
   It's no longer working anymore since I developed it years ago and GMU has changed their laundry systems since then. I did write a [blog post about the project](https://www.hallada.net/2013/04/09/visualizing-laundry-usage.html) though.
 </details>
-<br>
