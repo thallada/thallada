@@ -7,6 +7,13 @@
 
 ## Current Projects
 
+### modmapper
+
+Creating a database of all Skyrim mods on nexusmods.com and displaying the cells they edit on a map. Should make it easier to figure out what mods conflict with each other in the worldspace, and to find untouched areas of the map to build new mods in.
+
+* [skyrim-cell-dump](https://github.com/thallada/skyrim-cell-dump): Library and binary for parsing Skyrim plugin files and extracting CELL data
+* [modmapper](https://github.com/thallada/modmapper): (WIP) Downloads every Skyrim mod plugin from nexusmods.com and saves CELL edits of each to a database
+
 ### Bazaar Realm
 
 A networked Skyrim mod that allows players to own shops and visit other player's shops to buy and sell items. It's a rather ambitious project so I haven't yet released anything playable.
