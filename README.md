@@ -27,6 +27,7 @@ A networked Skyrim mod that allows players to own shops and visit other player's
 
 I'm currently particpating in the [Advent of Code 2020](https://adventofcode.com/). I have also participated in 2019 and 2018. I commit my daily solutions to these repos:
 
+* [advent-of-code-2020](https://github.com/thallada/advent-of-code-2021) (Rust)
 * [advent-of-code-2020](https://github.com/thallada/advent-of-code-2020) (Rust)
 * [advent-of-code-2019](https://github.com/thallada/advent-of-code-2019) (Rust)
 * [advent-of-code-2018](https://github.com/thallada/advent-of-code-2018) (Rust)
