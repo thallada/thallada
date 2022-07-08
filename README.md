@@ -9,7 +9,7 @@
 
 ### modmapper
 
-Creating a database of all Skyrim mods on nexusmods.com and displaying the cells they edit on a map. Should make it easier to figure out what mods conflict with each other in the worldspace, and to find untouched areas of the map to build new mods in.
+Creating a database of all Skyrim mods on nexusmods.com and displaying the cells they edit on a map. Should make it easier to figure out what mods conflict with each other in the worldspace, and to find untouched areas of the map to build new mods in. View the map at [modmapper.com](https://modmapper.com).
 
 * [skyrim-cell-dump](https://github.com/thallada/skyrim-cell-dump): Library and binary for parsing Skyrim plugin files and extracting CELL data
 * [modmapper](https://github.com/thallada/modmapper): Downloads every Skyrim mod plugin from nexusmods.com and saves CELL edits of each to a database
