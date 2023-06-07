@@ -7,6 +7,10 @@
 
 ## Current Projects
 
+### crawlnicle
+
+Working on [a news aggregator website called crawlnicle](https://github.com/thallada/crawlnicle) that has my own custom algorithm. Right now this is a personal project just to see where building my own algorithm takes me. If it ends up working I might release it in some form for others to use.
+
 ### modmapper
 
 Creating a database of all Skyrim mods on nexusmods.com and displaying the cells they edit on a map. Should make it easier to figure out what mods conflict with each other in the worldspace, and to find untouched areas of the map to build new mods in. View the map at [modmapper.com](https://modmapper.com). I also wrote a [blog post about it](https://www.hallada.net/2022/10/05/modmapper-putting-every-skyrim-mod-on-a-map-with-rust.html).
@@ -14,15 +18,6 @@ Creating a database of all Skyrim mods on nexusmods.com and displaying the cells
 * [skyrim-cell-dump](https://github.com/thallada/skyrim-cell-dump): Library and binary for parsing Skyrim plugin files and extracting CELL data
 * [modmapper](https://github.com/thallada/modmapper): Downloads every Skyrim mod plugin from nexusmods.com and saves CELL edits of each to a database
 * [modmapper-web](https://github.com/thallada/modmapper-web): Displays cell edits from Skyrim mods as a heatmap on a map of Skyrim
-
-### Bazaar Realm
-
-A networked Skyrim mod that allows players to own shops and visit other player's shops to buy and sell items. It's a rather ambitious project so I haven't yet released anything playable.
-
-* [BazaarRealmAPI](https://github.com/thallada/BazaarRealmAPI): API server for the mod that stores all shop data
-* [BazaarRealmClient](https://github.com/thallada/BazaarRealmClient): DLL that handles requests and responses to the API
-* [BazaarRealmPlugin](https://github.com/thallada/BazaarRealmPlugin): [SKSE](https://skse.silverlock.org/) plugin for the mod that modifies data within the Skyrim game engine
-* [BazaarRealmMod](https://github.com/thallada/BazaarRealmMod): Papyrus scripts, ESP plugin, and all other resources for the Skyrim mod
 
 ### Advent of Code
 
@@ -37,6 +32,19 @@ I'm currently particpating in the [Advent of Code 2022](https://adventofcode.com
 ## Shelved Projects
 
 This is a summary of coding side projects that I have worked on in the past but I'm not actively working on now. It's roughly sorted by most recently worked on first.
+
+<details>
+  <summary><strong>Bazaar Realm</strong>: A networked Skyrim mod that allows players to own shops and visit other player's shops to buy and sell items</summary>
+  <br>
+  
+  A networked Skyrim mod that allows players to own shops and visit other player's shops to buy and sell items. It's a rather ambitious project so I haven't yet released anything playable.
+
+  * [BazaarRealmAPI](https://github.com/thallada/BazaarRealmAPI): API server for the mod that stores all shop data
+  * [BazaarRealmClient](https://github.com/thallada/BazaarRealmClient): DLL that handles requests and responses to the API
+  * [BazaarRealmPlugin](https://github.com/thallada/BazaarRealmPlugin): [SKSE](https://skse.silverlock.org/) plugin for the mod that modifies data within the Skyrim game engine
+  * [BazaarRealmMod](https://github.com/thallada/BazaarRealmMod): Papyrus scripts, ESP plugin, and all other resources for the Skyrim mod
+  <br><br>
+</details>
 
 <details>
   <summary><strong>warp-caching</strong>: Testing different methods of caching with the warp web framework</summary>
