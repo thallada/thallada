@@ -21,8 +21,9 @@ Creating a database of all Skyrim mods on nexusmods.com and displaying the cells
 
 ### Advent of Code
 
-I'm currently particpating in the [Advent of Code 2022](https://adventofcode.com/). I have also participated in several past years. I commit my daily solutions to these repos:
+I (sometimes) particpate in the [Advent of Code](https://adventofcode.com/). I commit my daily solutions to these repos:
 
+* [advent-of-code-2025](https://github.com/thallada/advent-of-code-2025) (Rust)
 * [advent-of-code-2023](https://github.com/thallada/advent-of-code-2023) (Rust)
 * [advent-of-code-2022](https://github.com/thallada/advent-of-code-2022) (Zig)
 * [advent-of-code-2021](https://github.com/thallada/advent-of-code-2021) (Rust)
