@@ -41,6 +41,16 @@ I (sometimes) particpate in the [Advent of Code](https://adventofcode.com/). I c
 This is a summary of coding side projects that I have worked on in the past but I'm not actively working on now. It's roughly sorted by most recently worked on first.
 
 <details>
+<summary><strong>RowYourBoat</strong>: A mod for Oblivion Remastered that adds a usable rowboat to the game that you can purchase</summary>
+<br>
+
+Experience true maritime travel in Cyrodiil with realistic rowing, boat physics, and the freedom to explore every waterway. Drag it over land, summon it anywhere, add upgrades, and explore from a whole new perspective.
+
+I wrote a blog post about the development of this mod here: https://www.hallada.net/2025/08/24/row-your-boat.html it involved a lot of crazy hacks and math.
+<br><br>
+</details>
+
+<details>
 <summary><strong>crawlnicle</strong>: My personalized news and blog aggregator</summary>
 <br>
 
