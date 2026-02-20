@@ -7,9 +7,14 @@
 
 ## Current Projects
 
-### crawlnicle
+### Velthen
 
-Working on [a news aggregator website called crawlnicle](https://github.com/thallada/crawlnicle) that has my own custom algorithm. Right now this is a personal project just to see where building my own algorithm takes me. If it ends up working I might release it in some form for others to use.
+I'm building a text adventure multi-user dungeon (MUD) for the AI age where humans and LLMs play together as equals in a persistent dream world where anything can be manifested but everything fades eventually. I'm building it in Rust with bevy and Dioxus. No public repo yet, but I may eventually make it public.
+
+### keydr
+
+[keydr](https://github.com/thallada/keydr) is a TUI app for learning touch-typing in the terminal. Inspired by [keybr.com](https://www.keybr.com/), it teaches with drills that adapt to the user's current skill level. It constantly tracks the strongest and weakest keys by errors and timing. Each set of keys requires mastery before reaching the next level where new keys can be unlocked. Unlike keybr.com, keydr integrates code syntax keys that are important when touch typing code. It allows drilling on random snippets pulled from GitHub repos or Project Gutenberg books. It's built in Rust using Ratatui. Still WIP!
+
 
 ### modmapper
 
@@ -34,6 +39,16 @@ I (sometimes) particpate in the [Advent of Code](https://adventofcode.com/). I c
 ## Shelved Projects
 
 This is a summary of coding side projects that I have worked on in the past but I'm not actively working on now. It's roughly sorted by most recently worked on first.
+
+<details>
+<summary><strong>crawlnicle</strong>: My personalized news and blog aggregator</summary>
+<br>
+
+I was working on [a news aggregator website called crawlnicle](https://github.com/thallada/crawlnicle) that has my own custom algorithm. It was a personal project just to see where building my own algorithm takes me. I developed a site with axum, maud, and HTMX which could ingest an OPML file of RSS/Atom feeds and then schedule regular fetches of updates from those feeds.
+
+I eventually gave up on this once I discovered the wonderful app [Scour](https://scour.ing) which accomplished most of the things I was trying to accomplish with this project (and with almost the same tech stack!).
+<br><br>
+</details>
 
 <details>
   <summary><strong>Bazaar Realm</strong>: A networked Skyrim mod that allows players to own shops and visit other player's shops to buy and sell items</summary>
