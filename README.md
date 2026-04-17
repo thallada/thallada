@@ -1,4 +1,4 @@
-- 💼 I work at [Outcomes4Me](https://www.outcomes4me.com/) building an app that gives breast cancer patients the knowledge, tools, and options to navigate their treatment
+- 💼 I work at [Outcomes4Me](https://www.outcomes4me.com/) building an app that gives cancer patients the knowledge, tools, and options to navigate their treatment
 - ✏️ I have a blog which you can visit at [https://www.hallada.net/blog/](https://www.hallada.net/blog/)
 - 📫 How to reach me: tyler@hallada.net | [@tyhallada](https://twitter.com/tyhallada) | [LinkedIn](https://www.linkedin.com/in/thallada/)
 - 😄 Pronouns: he/him/his
