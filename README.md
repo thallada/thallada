@@ -7,6 +7,10 @@
 
 ## Current Projects
 
+### The Daily EPUB
+
+[The Daily EPUB](https://github.com/thallada/the-daily-epub) is a system that delivers a personalized newspaper to my e-ink devices every morning. This is my second attempt after the [crawlnicle](https://github.com/thallada/crawlnicle) project at creating a RSS feed reader that aggregates and selects the best articles across the internet based on my personal preferences. Instead of building it by hand, I made heavy use of vibe-coding with LLM coding agents this time to get much farther than I ever have before. It is still built in Rust and has a server-side rendered site frontend built using Axum. The system selects the best articles of the day using a sophisticated algorithm involving vector embeddings, LLM judges, LLM editors, LLM feature extractors, and calculated scores based on previous article rankings I have provided. Every aspect of the algorithm has been built to be inspectable and tweakable so that the reader is always in control of what content gets recommended to them. I'm still dogfooding and making tweaks to the project, but I plan to eventually share it with others so anyone can use it to build their own personalized newspaper. You can preview my personalized issues over at [daily.hallada.net](https://daily.hallada.net).
+
 ### Velthen
 
 I'm building a text adventure multi-user dungeon (MUD) for the AI age where humans and LLMs play together as equals in a persistent dream world where anything can be manifested but everything fades eventually. I'm building it in Rust with bevy and Dioxus. No public repo yet, but I may eventually make it public.
